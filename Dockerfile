@@ -15,7 +15,7 @@ RUN apk --no-cache --virtual build-dependencies add \
     pango-dev \
     python3 \
     make \
-    g++ 
+    g++
 
 # Set the working directory
 WORKDIR /app
